@@ -1,10 +1,10 @@
-# UniBrain: A Spatiotemporal Single-Cell Atlas of the Human Brain Across the Lifespan
+# UniBrain: A lifespan-wide single-cell framework for human brain
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.2%2B-276DC3)](https://www.r-project.org)
 
-Analysis pipeline for constructing a comprehensive single-cell transcriptomic atlas of the developing human brain, spanning from early gestation to late adulthood. The project integrates 30+ public scRNA-seq datasets, performs hierarchical cell type annotation across five resolution levels, and conducts systematic downstream analyses including lineage tracing, gene regulatory network inference, cell–cell communication, disease heritability enrichment, and an LLM-based brain atlas agent (UniBrain).
+Analysis pipeline for UniBrain, a lifespan-wide single-cell framework for the human brain spanning early gestation to late adulthood. The project integrates 30+ public scRNA-seq datasets, performs hierarchical cell type annotation across five resolution levels, and conducts systematic downstream analyses including lineage tracing, gene regulatory network inference, cell–cell communication, disease heritability enrichment, and an LLM-based brain atlas agent.
 
 ## Repository Structure
 
