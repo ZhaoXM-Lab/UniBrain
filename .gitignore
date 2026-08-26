@@ -1,0 +1,69 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local environments (keep environment.yml/requirements*.txt tracked)
+.venv/
+venv/
+env/
+.conda/
+
+# Python, test, and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.virtual_documents/
+
+# R and IDE state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.vscode/
+.idea/
+
+# Analysis data and intermediate objects
+data/
+output/
+result/models/
+environment_reports/
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.rds
+*.mtx
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Model weights and training logs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+wandb/
+runs/
+logs/
+lightning_logs/
+
+# Generated figures, temporary files, and operating-system files
+*.pdf
+*.png
+*.svg
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db

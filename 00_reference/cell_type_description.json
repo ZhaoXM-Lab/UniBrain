@@ -1,0 +1,195 @@
+{
+    "L2/3-CUX2 Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Superficial neocortical layer 2/3 glutamatergic neurons expressing CUX2, mediating excitatory intracortical and interareal cortical communication and synaptic integration in upper cortical layers. They support associative processing and local cortical circuitry."
+    },
+    "L2/3-SATB2 Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Layer 2/3 excitatory cortical neurons marked by SATB2, projecting within telencephalon and contributing to callosal and corticocortical connectivity, essential for integrative and associative functions in cortical networks."
+    },
+    "L4-RORB Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Layer 4 glutamatergic neurons characterized by RORB expression that receive and relay thalamic sensory inputs within sensory cortex, forming key excitatory feedforward elements in cortical sensory processing."
+    },
+    "L5-BCL11B Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Deep layer 5 excitatory neurons expressing BCL11B (CTIP2), projecting to subcortical targets and integrating cortical output signals, critical for motor and associative cortical functions."
+    },
+    "L5/6-TLE4 Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Layer 5/6 glutamatergic neurons marked by TLE4, forming corticothalamic outputs that modulate thalamic targets and feedback to cortical circuits, influencing sensory and motor information flow."
+    },
+    "L5/6-THEMIS Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "L5/6-THEMIS glutamatergic neurons refers to a deep neocortical glutamatergic projection neuron with soma in layers 5/6, identifiable by transcriptomic markers including THEMIS and NPSR1-AS1. These excitatory pyramidal neurons release glutamate to drive intracortical and subcortical communication, contributing to hierarchical cortical processing and output signaling."
+    },
+    "Thalamic_Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Thalamic_Glu denotes excitatory relay neurons in human thalamic nuclei that principally use glutamate to transmit sensory, motor, and integrative signals to the cerebral cortex. They form the core of thalamocortical circuits, shaping perception, arousal, and consciousness by conveying and modulating information flow."
+    },
+    "Hippocampal_Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Excitatory hippocampal glutamatergic neurons, including pyramidal and dentate granule cells, essential for synaptic plasticity, memory encoding, spatial navigation, and hippocampal circuit dynamics."
+    },
+    "Granule_neuron": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Small excitatory glutamatergic neurons found in structures like the dentate gyrus and cerebellum; in the hippocampus they participate in memory and pattern separation, and in the cerebellum they support motor coordination."
+    },
+    "Hypothalamic_Glu": {
+        "tree_L1": "Neuron",
+        "tree_L2": "Glutamatergic neuron",
+        "description": "Glutamate-releasing excitatory neurons in hypothalamic nuclei that regulate autonomic, endocrine, and behavioral functions, integrating sensory and internal state signals to control homeostasis and arousal."
+    },
+    "PVALB+ GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Fast-spiking human cortical inhibitory neurons expressing parvalbumin (PVALB). They release GABA to control timing of excitatory neuron firing, synchronize network activity, and regulate cortical excitability in local microcircuits. Marker expression reflects distinct inhibitory subtype identity."
+    },
+    "SST+ GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Somatostatin (SST)-expressing inhibitory interneurons in human cortex/hippocampus. They release GABA onto dendrites of principal cells, modulating synaptic integration and contributing to inhibitory control, network dynamics, and inhibition of distal inputs in cortical layers."
+    },
+    "LHX6+LAMP5+ GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Transcriptomically defined cortical GABAergic interneurons co-expressing LHX6 and LAMP5. They represent a molecularly distinct inhibitory subclass that shapes local network inhibition through GABA release and integrative modulation of principal neuron activity."
+    },
+    "CALB2+ GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Calbindin-2 (CALB2; calretinin)-expressing inhibitory interneurons found in human cortex and hippocampus. These GABAergic cells regulate local circuit excitability and temporal precision through inhibitory synaptic output, often shaping dendritic integration."
+    },
+    "VIP+ GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Vasoactive intestinal peptide (VIP)-expressing inhibitory interneurons in human cortex. They release GABA to preferentially inhibit other interneurons, effectively disinhibiting principal neuron activity and modulating sensory and cognitive processing."
+    },
+    "RELN+ GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Reelin (RELN)-positive GABAergic interneurons in human cortex/hippocampus. Combining inhibitory neurotransmission with reelin expression, these cells influence synaptic plasticity and migration during development and contribute to inhibitory microcircuit regulation."
+    },
+    "Medium_spiny_neuron": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Medium spiny neurons are inhibitory projection cells of the human striatum that use GABA and express dopamine (D1/D2) receptor subtypes. They integrate cortical and thalamic inputs to regulate basal ganglia output, motor control, and reward behaviors."
+    },
+    "Purkinje_neuron": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Cerebellar cortex’s sole inhibitory output neurons that use GABA. Purkinje cells integrate vast excitatory inputs via elaborate dendritic trees to coordinate precision of motor control and learning."
+    },
+    "Thalamic_GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "Inhibitory neurons in human thalamic nuclei that release GABA to regulate thalamocortical relay cell activity, shaping sensory gating, rhythmic oscillations, and thalamocortical signal processing."
+    },
+    "Midbrain-derived_GABA": {
+        "tree_L1": "Neuron",
+        "tree_L2": "GABAergic neuron",
+        "description": "GABA-releasing inhibitory neurons in human midbrain (e.g., substantia nigra/ventral tegmental area). They regulate local and ascending circuits controlling motor functions and reward processing through inhibitory synaptic output."
+    },
+    "Astrocyte": {
+        "tree_L1": "Glia",
+        "tree_L2": "AstroEpen",
+        "description": "Astrocytes are abundant star-shaped macroglial cells in the human CNS. They regulate extracellular ions/chemicals, support blood–brain barrier and neuronal metabolism, influence synaptic activity and blood flow, and contribute to injury responses and scar formation, thus maintaining CNS homeostasis and neural functioning."
+    },
+    "Ependymal": {
+        "tree_L1": "Glia",
+        "tree_L2": "AstroEpen",
+        "description": "Ependymal cells are specialized glial epithelial cells lining the brain’s ventricles and spinal cord central canal. They produce, circulate, and regulate cerebrospinal fluid, contribute to waste clearance, and support neurogenic niches, helping to maintain CNS fluid homeostasis and facilitating waste exchange."
+    },
+    "Oligodendrocyte": {
+        "tree_L1": "Glia",
+        "tree_L2": "Oligodendrocyte",
+        "description": "Oligodendrocytes are CNS macroglial cells that form myelin sheaths around axons, enabling rapid electrical conduction. They arise from progenitors, support axonal integrity, and are critical for neural network function. Loss or dysfunction of oligodendrocytes impairs myelination and is implicated in demyelinating disorders."
+    },
+    "Microglia": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Immune",
+        "description": "Microglial cells are yolk sac–derived resident immune cells of the CNS, comprising ~10% of its cells. They mediate immune defense, phagocytosis, synaptic pruning, and tissue repair, supporting neural development and homeostasis. Dysregulated activation is linked to neuroinflammatory and neurodegenerative diseases."
+    },
+    "Macrophage": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Immune",
+        "description": "Macrophages are innate immune cells of hematopoietic origin present in tissues including the brain. They phagocytose pathogens and debris, present antigens, secrete cytokines that regulate inflammation and repair, and contribute to tissue homeostasis and immune responses throughout the body."
+    },
+    "Fibroblast": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Fibroblast",
+        "description": "Fibroblasts are connective tissue cells that produce extracellular matrix and collagen, providing structural support and wound repair. They regulate tissue architecture, respond to injury with scar formation, and interact with other cell types to maintain tissue integrity"
+    },
+    "Endothelial_cell": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Endothelial cell",
+        "description": "Endothelial cells line blood and lymphatic vessels, forming a selective barrier between blood and tissue. In the CNS they contribute to the blood–brain barrier, regulate vascular permeability, angiogenesis, and leukocyte trafficking, and maintain vascular homeostasis and tissue perfusion."
+    },
+    "Pericyte": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Pericyte",
+        "description": "Pericytes are mural cells associated with microvascular endothelial cells throughout the body, including the brain. They regulate blood–brain barrier integrity, microvascular stability, blood flow, and vessel permeability, and contribute to vascular remodeling and neurovascular coupling."
+    },
+    "Choroid_plexus_epithelial": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Choroid plexus epithelial",
+        "description": "Choroid plexus epithelial cells form the CSF-secreting barrier in brain ventricles. They produce and regulate cerebrospinal fluid composition, mediate molecular transport and immune signaling at the blood-CSF interface, and contribute to CNS homeostasis."
+    },
+    "Vascular_smooth_muscle_cell": {
+        "tree_L1": "Non-neural",
+        "tree_L2": "Vascular smooth muscle cell",
+        "description":"Vascular smooth muscle cells are contractile cells in blood vessel walls that regulate vessel diameter, blood pressure, and flow. They interact with endothelial cells and pericytes to maintain vascular tone, structural integrity, and hemodynamic homeostasis."
+    },
+    "Glioblast": {
+        "tree_L1": "Neural precursor cell",
+        "tree_L2": "Glial precursor",
+        "description": "A postmitotic precursor destined to become a neuron, typically generated from radial glia. These cells migrate from germinal zones before differentiating into mature neurons, playing a key role in neurogenesis and circuit formation during brain development."
+    },
+    "Neuroblast": {
+        "tree_L1": "Neural precursor cell",
+        "tree_L2": "Neuronal precursor",
+        "description": "A neural precursor cell in the embryonic neuroectoderm that gives rise to macroglial lineages including astrocytes and oligodendrocytes through asymmetric division, contributing to glial development and supporting CNS structure and function during early neural differentiation."
+    },
+    "Neuronal_IPC": {
+        "tree_L1": "Neural precursor cell",
+        "tree_L2": "Neuronal precursor",
+        "description": "A proliferative intermediate progenitor derived from radial glia that undergoes symmetric divisions to amplify neuronal precursor pools, generating postmitotic neurons during cortex development and supporting proper layering and neuronal diversity."
+    },
+    "Radial_glia": {
+        "tree_L1": "Neural precursor cell",
+        "tree_L2": "Radial glia",
+        "description": "Embryonic neural progenitor cells furnishing neurons and glia in the developing cortex. They provide scaffolding for migrating neurons and contribute to neural lineage specification and cerebral cortex expansion during neurodevelopment."
+    },
+    "Oligodendrocyte_precursor_committed": {
+        "tree_L1": "Neural precursor cell",
+        "tree_L2": "Glial precursor",
+        "description": "A late-stage oligodendrocyte lineage progenitor that has exited the proliferative precursor state and is committed toward differentiation into mature myelinating oligodendrocytes, poised for myelin formation and CNS white matter development."
+    },
+    "Oligodendrocyte_precursor": {
+        "tree_L1": "Neural precursor cell",
+        "tree_L2": "Glial precursor",
+        "description": "Glial lineage precursor cells that proliferate and migrate throughout the CNS, maintain a stable population, and differentiate into myelinating oligodendrocytes, thereby supporting axonal insulation, regeneration, and repair in humans."
+    },
+    "Serotonergic": {
+        "tree_L1": "Other neuron",
+        "tree_L2": "Serotonergic neuron",
+        "description": "A type of central neuron that synthesizes and releases serotonin, regulating mood, sleep, and autonomic functions; involved in modulatory signaling and implicated in psychiatric and neurological disorders."
+    },
+    "Cholinergic": {
+        "tree_L1": "Other neuron",
+        "tree_L2": "Cholinergic neuron",
+        "description": "A neuron that produces and releases acetylcholine, essential for neuromuscular communication, autonomic regulation, and cognitive processes like learning and memory."
+    }  
+
+}
+
+

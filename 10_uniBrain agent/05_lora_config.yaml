@@ -1,0 +1,60 @@
+# =============================================================================
+# File      : 05_lora_config.yaml
+# Directory : 10_uniBrain agent
+# Purpose   : LLAMA-Factory LoRA fine-tuning config for Qwen3 on the merged brain-atlas corpus.
+# =============================================================================
+
+# --- Model ---
+# Base model whose tokenizer was updated with the VQ-code tokens
+# (output of 04_update_tokenizer.py)
+model_name_or_path: /path/to/your/project/result/models/Qwen3-8B_update  # <-- MODIFY THIS
+
+# --- Training framework ---
+stage: sft                    # supervised fine-tuning
+do_train: true
+finetuning_type: lora
+lora_target: all              # apply LoRA to all linear layers
+lora_rank: 256                # LoRA rank
+additional_target: embed_tokens, lm_head   # also train the embedding and LM head
+                                            # (required to learn the new tokens)
+
+# --- Dataset ---
+# Datasets must be registered in dataset_info.json (LLAMA-Factory) under
+# dataset_dir; STAB3_merged_v6 is built by 03_corpus_construction.py
+dataset: STAB3_merged_v6,medical_wiki,alpaca_gpt4,PubMedQA
+template: qwen3
+cutoff_len: 2048
+overwrite_cache: true
+preprocessing_num_workers: 40
+
+# --- Checkpointing / logging ---
+# resume_from_checkpoint: /path/to/checkpoints/checkpoint-34000
+# resume_from_checkpoint is commented out: the placeholder path below does not
+# exist, and LLAMA-Factory aborts when it cannot resume. Uncomment and set a
+# real checkpoint to resume training.
+# resume_from_checkpoint: /path/to/checkpoints/checkpoint-50000
+
+output_dir: /path/to/your/project/result/models/LoRA_SFT_v6  # <-- MODIFY THIS
+logging_steps: 50
+save_steps: 500
+plot_loss: true               # save the loss-curve plot at the end of training
+overwrite_output_dir: true
+
+# --- Optimizer / schedule ---
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 32
+learning_rate: 1.0e-6         # low LR for LLM fine-tuning (1.0e-5 also tested)
+num_train_epochs: 10.0
+lr_scheduler_type: cosine
+warmup_ratio: 0               # 0.1 also tested
+bf16: true
+ddp_timeout: 180000000
+
+# --- Evaluation ---
+val_size: 0.1                 # hold out 10% of the dataset for validation
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 1000
+
+# --- Previous run notes ---
+# v4.1: 3 GPUs, batch=8, accum=8, lr=1e-5, epochs=2

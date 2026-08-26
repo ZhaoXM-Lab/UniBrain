@@ -1,0 +1,57 @@
+{
+    "Basal forebrain":{
+        "description": "Basal forebrain structures lie anterior and ventral to the striatum and include the nucleus basalis, diagonal band of Broca, medial septal nuclei, and substantia innominata. Rich in cholinergic neurons, they provide widespread acetylcholine to cortex and hippocampus, modulating arousal, attention, learning, and memory."
+    },
+    "Basal ganglia":{
+        "description": "Basal ganglia are deep subcortical nuclei that regulate voluntary movement, action selection, and motor learning. Receiving cortical inputs and modulating thalamocortical output, they also contribute to reward processing and cognitive functions."
+    },
+    "Cerebellum":{
+        "description": "The cerebellum lies posterior to the brainstem and coordinates motor control, posture, balance, and motor learning by integrating sensory and cortical signals to fine-tune movement accuracy."
+    },
+    "Cerebral cortex":{
+        "description": "The cerebral cortex is the outer gray matter of the cerebrum, enabling higher cognitive functions such as perception, language, reasoning, and memory. Divided into lobes, it processes sensory inputs and directs voluntary behavior."
+    },
+    "Cerebrum":{
+        "description": "The cerebrum is the largest brain part, encompassing cerebral cortex and subcortical white matter. It governs thought, movement, sensation, reasoning, emotion, and complex behaviors through distributed cortical networks."
+    },
+    "Epithalamus":{
+        "description": "The epithalamus is a dorsal diencephalic region including habenular nuclei and the pineal gland. It links limbic structures to midbrain centers and influences circadian rhythms and emotional/olfactory responses via melatonin secretion."
+    },
+    "Frontal lobe":{
+        "description": "The frontal lobe is the anterior cerebral hemisphere segment controlling executive functions, voluntary movement planning/execution, speech production, and personality traits. It integrates sensory and motor pathways for goal-directed behavior."
+    },
+    "Hippocampus":{
+        "description": "The hippocampus is a curved medial temporal lobe structure essential for memory formation, spatial navigation, and consolidation of short-term to long-term memories within limbic circuits."
+    },
+    "Hypothalamus":{
+        "description": "The hypothalamus is a small diencephalic center regulating homeostasis and autonomic functions including temperature, hunger, thirst, circadian rhythms, and endocrine Control via the pituitary gland."
+    },
+    "Insular lobe":{
+        "description": "The insular lobe lies deep within the lateral sulcus and integrates visceral sensory information, contributing to interoception, emotion, and higher-order cognitive processes including taste and empathy."
+    },
+    "Medulla":{
+        "description": "The medulla oblongata is the brainstem’s most caudal part regulating vital autonomic functions such as heart rate, breathing, blood pressure, and reflexes like swallowing and vomiting."
+    },
+    "Occipital lobe":{
+        "description": "The occipital lobe at the posterior cerebrum primarily processes visual information, interpreting signals for color, motion, and shape from the retina via the visual pathways."
+    },
+    "Parietal lobe":{
+        "description": "The parietal lobe integrates sensory input including touch, pain, and spatial orientation, contributing to perception of body position and coordination of movements."
+    },
+    "Pituitary gland":{
+        "description": "The pituitary gland, beneath the hypothalamus, is the master endocrine organ that secretes hormones governing growth, metabolism, stress, and reproductive functions, responding to hypothalamic signals."
+    },
+    "Pons":{
+        "description": "The pons, part of the brainstem between medulla and midbrain, relays signals between cerebrum and cerebellum and houses centers that regulate breathing, sleep, and arousal."
+    },
+    "Temporal lobe":{
+        "description": "The temporal lobe at the sides of the cerebral hemispheres processes auditory information, supports memory and language comprehension, and contributes to emotion and object recognition."
+    },
+    "Thalamus":{
+        "description": "The thalamus is a paired diencephalic relay station that processes and transmits sensory and motor information to the cerebral cortex and modulates arousal and attention."
+    }
+
+}
+
+
+
